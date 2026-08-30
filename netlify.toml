@@ -6,6 +6,36 @@ from = "/services.html"
 to = "/#services"
 status = 302
 
+[[redirects]]
+from = "/bed-bug-exterminator-guelph"
+to = "https://guelphexterminator.com/bed-bug-exterminator-guelph"
+status = 301
+force = true
+
+[[redirects]]
+from = "/carpenter-ants-guelph"
+to = "https://guelphexterminator.com/carpenter-ants-guelph"
+status = 301
+force = true
+
+[[redirects]]
+from = "/exterminator-cost-guelph"
+to = "https://guelphexterminator.com/exterminator-cost-guelph"
+status = 301
+force = true
+
+[[redirects]]
+from = "/mouse-exterminator-guelph"
+to = "https://guelphexterminator.com/mouse-exterminator-guelph"
+status = 301
+force = true
+
+[[redirects]]
+from = "/wasp-nest-removal-guelph"
+to = "https://guelphexterminator.com/wasp-nest-removal-guelph"
+status = 301
+force = true
+
 [[headers]]
 for = "/*"
 [headers.values]
