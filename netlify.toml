@@ -49,3 +49,16 @@ from = "https://guelphgaragedoor-com.netlify.app/*"
 to = "https://guelphgaragedoor.com/:splat"
 status = 301
 force = true
+
+# Consolidate duplicate domains onto the canonical guelphgaragedoor.com
+[[redirects]]
+from = "https://guelphgaragedoor.ca/*"
+to = "https://guelphgaragedoor.com/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://guelphgaragedoorrepair.com/*"
+to = "https://guelphgaragedoor.com/:splat"
+status = 301
+force = true
