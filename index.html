@@ -300,7 +300,7 @@
   <div class="container">
     <h2>Get a Free Quote</h2>
     <p>Contact us today for a free, no-obligation quote for garage door services in Guelph.</p>
-    <form class='contact-form' method='POST' name='contact' enctype="multipart/form-data" data-netlify="true">
+    <form class='contact-form' method='POST' name='contact' enctype="multipart/form-data" data-netlify="true" netlify-honeypot="bot-field">
       <input type="hidden" name="form-name" value="contact">
       <p hidden><label>Don't fill this out: <input name="bot-field"></label></p>
       <div class="form-row">
@@ -308,6 +308,8 @@
         <label>Phone <input type="tel" name="phone" required placeholder="Your phone number"><label>Email</label><input type="email" name="email" placeholder="jane@example.com"></label>
       </div>
       <label>What do you need?
+        <label for="address">Property Address *</label>
+        <input type="text" id="address" name="address" required placeholder="Street address and city">
         <textarea name="message" rows="5" placeholder="Tell us about your project..."></textarea>
       </label>
       <label>Photos or Video (optional)</label><input type="file" name="photos" accept="image/*,video/*" multiple><button type="submit" class="btn-primary">Send My Request</button>
